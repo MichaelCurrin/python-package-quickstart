@@ -10,6 +10,15 @@ What is an `__init__.py` file for?
 >
 > In the simplest case, `__init__.py` can just be an empty file, but it can also execute initialization code for the package or set the `__all__` variable, described later.
 
+
+## Package installation
+
+Reduce to the fewest pieces, an installable Python package is a directory with an `__init__.py` file. This file could be empty and do nothing. For a simple project of a single script, that file could contain all the Python code and no other files are needed.
+
+
+## Adding a docstring
+
+
 Adding a docstring to the otherwise empty file can be useful when reading your documentation (especially through the console) to explain a module and its purpose. e.g.
 
 ```
@@ -21,8 +30,6 @@ Foo initialization module.
 """
 
 ```
-
-## Adding a docstring
 
 An initialization file will be run when its parent directory is imported.
 
