@@ -50,6 +50,11 @@ A main file is a script or an entrypoint to be run directly, but it might be con
 See [init file](init_file.md) tutorial page.
 
 
+### Main file
+
+See [main file](main_file.md) tutorial page.
+
+
 ### Intra-package references
 
 See [section](https://docs.python.org/3/tutorial/modules.html#intra-package-references) of tutorial.
