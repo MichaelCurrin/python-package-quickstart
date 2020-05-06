@@ -12,12 +12,25 @@ This project is a quick reference and a demo for making a Python project install
 
 ## Resources
 
-- [packaging.python.org](https://packaging.python.org)
-    - [Packaging Python Projects](https://packaging.python.org/tutorials/packaging-projects/) tutorial. Most of this guide is based on that.
-    - [Installing packages](https://packaging.python.org/tutorials/installing-packages/) tutorial.
-- [Modules](https://docs.python.org/3/tutorial/modules.html#packages) tutorial in the Python 3 docs.
-- [setuptools](https://packaging.python.org/key_projects/#setuptools)
-- [wheel](https://packaging.python.org/key_projects/#wheel)
+### Official docs
+
+Python Packaging site
+
+- [packaging.python.org](https://packaging.python.org) Homepage
+- [Packaging Python Projects](https://packaging.python.org/tutorials/packaging-projects/) tutorial. Most of this guide is based on that.
+- [Installing packages](https://packaging.python.org/tutorials/installing-packages/) tutorial.
+- Key projects
+    - [twine](https://packaging.python.org/key_projects/#twine) package - for upload to PyPI.
+    - [setuptools](https://packaging.python.org/key_projects/#setuptools) package.
+    - [wheel](https://packaging.python.org/key_projects/#wheel) package.
+
+Python 3 docs
+
+- [Modules](https://docs.python.org/3/tutorial/modules.html#packages) tutorial.
+
+### Other
+
+- [How to Publish Your Own Python Package to PyPI](https://realpython.com/courses/how-to-publish-your-own-python-package-pypi/)
 
 
 ## Related projects
