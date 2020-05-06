@@ -13,7 +13,7 @@ This project is a quick reference and a demo for making a Python project install
 ## Resources
 
 - [packaging.python.org](https://packaging.python.org)
-    - [Packaging Python Projects¶](https://packaging.python.org/tutorials/packaging-projects/) tutorial. Most of this guide is based on that.
+    - [Packaging Python Projects](https://packaging.python.org/tutorials/packaging-projects/) tutorial. Most of this guide is based on that.
     - [Installing packages](https://packaging.python.org/tutorials/installing-packages/) tutorial.
 - [Modules](https://docs.python.org/3/tutorial/modules.html#packages) tutorial in the Python 3 docs.
 - [setuptools](https://packaging.python.org/key_projects/#setuptools)
