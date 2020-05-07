@@ -14,19 +14,22 @@ This project is a quick reference and a demo for making a Python project install
 
 ### Official docs
 
-Python Packaging site
-
-- [packaging.python.org](https://packaging.python.org) Homepage
-- [Packaging Python Projects](https://packaging.python.org/tutorials/packaging-projects/) tutorial. Most of this guide is based on that.
-- [Installing packages](https://packaging.python.org/tutorials/installing-packages/) tutorial.
-- Key projects
-    - [twine](https://packaging.python.org/key_projects/#twine) package - for upload to PyPI.
-    - [setuptools](https://packaging.python.org/key_projects/#setuptools) package.
-    - [wheel](https://packaging.python.org/key_projects/#wheel) package.
-
-Python 3 docs
-
-- [Modules](https://docs.python.org/3/tutorial/modules.html#packages) tutorial.
+- Python Packaging site
+    - [packaging.python.org](https://packaging.python.org) Homepage
+    - [Packaging Python Projects](https://packaging.python.org/tutorials/packaging-projects/) tutorial. Most of this guide is based on that.
+    - [Installing packages](https://packaging.python.org/tutorials/installing-packages/) tutorial.
+    - Key projects
+        - [twine](https://packaging.python.org/key_projects/#twine) package - for upload to PyPI.
+        - [setuptools](https://packaging.python.org/key_projects/#setuptools) package.
+        - [wheel](https://packaging.python.org/key_projects/#wheel) package.
+- Python 3 docs
+    - [Modules](https://docs.python.org/3/tutorial/modules.html#packages) tutorial.
+- PyPI site
+    - [pypi.org](https://pypi.org/) homepage.
+    - [Help](https://pypi.org/help/) page. See Basics for answers:
+        - What's a package, project, or release?
+        - How do I install a file (package) from PyPI?
+        - How do I package and publish my code for PyPI?
 
 ### Other
 
