@@ -41,6 +41,19 @@ Python 3 docs
 ## Guide
 
 
+## What you'll get at the end of this tutorial
+
+- A standard well-structured Python project outline.
+- Your project can be installed using `pip` or `python setup.py`.
+- Make your project installable using `pip` and a Github URL. 
+
+
+Note on publishing: 
+
+- This does not cover publishing to PyPI, as that is more restrictive especially if you're a beginner for packaging. For PyPI, you have to setup an account, meet the quality standards (maybe get approval?) and your package becomes searchable. 
+- A Github package is lower profile and has lower barriers to experiment with. Also, you can make your project private for your user or org, but still install it where you have access.
+
+
 ### Typical structure
 
 ```
