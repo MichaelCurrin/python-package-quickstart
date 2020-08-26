@@ -3,8 +3,7 @@
 
 ## About
 
-This project is a quick reference and a demo for making a Python project installable using the `pip install PACKAGE` command. For full details, see the linked resources.
-
+This project is a quick reference, resources and demo for making a Python project installable using the `pip install PACKAGE` command. For full details, see the linked resources.
 
 - _Python 3.6+_
 - _Project settings configured for VS Code_
@@ -36,6 +35,17 @@ This project is a quick reference and a demo for making a Python project install
 - [How to Publish Your Own Python Package to PyPI](https://realpython.com/courses/how-to-publish-your-own-python-package-pypi/)
 
 
+## Source Distributions vs Wheels
+
+From [pip docs](https://packaging.python.org/tutorials/installing-packages/#source-distributions-vs-wheels)
+
+> pip can install from either Source Distributions (sdist) or Wheels, but if both are present on PyPI, pip will prefer a compatible wheel.
+>
+> Wheels are a pre-built distribution format that provides faster installation compared to Source Distributions (sdist), especially when a project contains compiled extensions.
+>
+> If pip does not find a wheel to install, it will locally build a wheel and cache it for future installs, instead of rebuilding the source distribution in the future.
+
+
 ## Related projects
 
 - [MichaelCurrin/py-project-template](https://github.com/MichaelCurrin/py-project-template)
@@ -43,19 +53,16 @@ This project is a quick reference and a demo for making a Python project install
 
 ## Guide
 
-
-## What you'll get at the end of this tutorial
+### What you'll get at the end of this tutorial
 
 - A standard well-structured Python project outline.
 - Your project can be installed using `pip` or `python setup.py`.
 - Make your project installable using `pip` and a Github URL. 
 
-
 Note on publishing: 
 
 - This does not cover publishing to PyPI, as that is more restrictive especially if you're a beginner for packaging. For PyPI, you have to setup an account, meet the quality standards (maybe get approval?) and your package becomes searchable. 
 - A Github package is lower profile and has lower barriers to experiment with. Also, you can make your project private for your user or org, but still install it where you have access.
-
 
 ### Typical structure
 
@@ -73,16 +80,13 @@ Note that a directory and a script are both considered a "module" in Python, if 
 
 A main file is a script or an entrypoint to be run directly, but it might be considered a module if you import it from elsewhere.
 
-
 ### Init file
 
 See [init file](init_file.md) tutorial page.
 
-
 ### Main file
 
 See [main file](main_file.md) tutorial page.
-
 
 ### Intra-package references
 
