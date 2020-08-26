@@ -4,9 +4,6 @@ Sample project setup file.
 import setuptools
 from setuptools import setup
 
-with open("README.md") as f_in:
-    long_description = f_in.read()
-
 
 setup(
     name="sample-project-MichaelCurrin",
@@ -14,8 +11,9 @@ setup(
     author="Michael Currin",
     author_email="",
     description="A sample Python package project",
-    long_description=long_description,
+    long_description=open("README.md").read(),
     long_description_content_type="text/markdown",
+    license="MIT",
     url="https://github.com/MichaelCurrin/python-package-quickstart",
     packages=setuptools.find_packages(),
     classifiers=[
