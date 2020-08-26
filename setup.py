@@ -1,8 +1,7 @@
 """
 Sample project setup file.
 """
-import setuptools
-from setuptools import setup
+from setuptools import setup, find_packages
 
 
 setup(
@@ -15,7 +14,7 @@ setup(
     long_description_content_type="text/markdown",
     license="MIT",
     url="https://github.com/MichaelCurrin/python-package-quickstart",
-    packages=setuptools.find_packages(),
+    packages=find_packages(),
     classifiers=[
         "Programming Language :: Python :: 3",
         "License :: OSI Approved :: MIT License",
