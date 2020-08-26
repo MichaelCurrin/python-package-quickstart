@@ -67,9 +67,9 @@ Include dependencies.
     $ pip install -e git+https://github.com/django/django.git@45dfb3641aa4d9828a7c5448d11aa67c7cbd7966#egg=django[argon2]
     ```
 - Tarball
-  ```sh
-  $ pip install -e https://github.com/django/django/archive/45dfb3641aa4d9828a7c5448d11aa67c7cbd7966.tar.gz#egg=django[argon2]
-  ```
+    ```sh
+    $ pip install -e https://github.com/django/django/archive/45dfb3641aa4d9828a7c5448d11aa67c7cbd7966.tar.gz#egg=django[argon2]
+    ```
 
 > Any URL may use the #egg=name syntax (see VCS Support) to explicitly state the project name. [source](https://pip.pypa.io/en/stable/reference/pip_install/)
 
