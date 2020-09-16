@@ -1,8 +1,9 @@
 # Init file
 
-See [section](https://docs.python.org/3/tutorial/modules.html#packages) of tutorial.
+See the [Packages](https://docs.python.org/3/tutorial/modules.html#packages) section of official tutorial.
 
-## Its Purpose
+
+## Purpose
 
 What is an `__init__.py` file for?
 
@@ -18,48 +19,42 @@ Reduce to the fewest pieces, an installable Python package is a directory with a
 
 ## Adding a docstring
 
-
 Adding a docstring to the otherwise empty file can be useful when reading your documentation (especially through the console) to explain a module and its purpose. e.g.
 
-```
-foo/__init__.py
-```
-```python
-"""
-Foo initialization module.
-"""
+- `foo/bar/__init__.py`
+    ```python
+    """
+    Foo initialization module.
+    """
 
-```
+    ```
 
 An initialization file will be run when its parent directory is imported.
+
 
 ## Adding global code
 
 This can be useful to run side effects such as a print statement which is not inside a function.
 
-```
-foo/__init__.py
-```
-```python
-"""
-Foo initialization module.
-"""
+- `foo/bar/__init__.py`
+    ```python
+    """
+    Foo initialization module.
+    """
 
-print("This is the foo module")
-```
+    print("This is the foo module")
+    ```
 
 Add a nested module.
 
-```
-foo/bar/__init__.py
-```
-```python
-"""
-Bar initialization module.
-"""
+- `foo/bar/__init__.py`
+    ```python
+    """
+    Bar initialization module.
+    """
 
-print("This is the bar module")
-```
+    print("This is the bar module")
+    ```
 
 
 Then import:
@@ -80,26 +75,23 @@ This is the bar module
 
 More commonly, any functions which are shared for the directory can be placed in the `__init__.py` file.
 
-```
-foo/__init__.py
-```
-```python
-"""
-Foo initialization module.
-"""
+- `foo/__init__.py`
+    ```python
+    """
+    Foo initialization module.
+    """
 
-def hello():
-    print("Hello, world!")
+    def hello():
+        print("Hello, world!")
 
 
+    def main():
+        print("This is main function")
+        hello()
 
-def main():
-    print("This is main function")
-    hello()
-
-if __name__ == '__main__':
-    main()
-```
+    if __name__ == '__main__':
+        main()
+    ```
 
 Example use:
 
