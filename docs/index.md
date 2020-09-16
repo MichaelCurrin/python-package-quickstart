@@ -1,4 +1,4 @@
-# Python Packages Tutorial
+# Python Packages Tutorial 🐍 📦
 
 Repo: [MichaelCurrin/python-package-quickstart](https://github.com/MichaelCurrin/python-package-quickstart)
 
