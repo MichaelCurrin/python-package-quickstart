@@ -1,5 +1,14 @@
 # Python Package Quickstart :snake: :package:
-> Make an installable Python project with a simple base and tutorial
+> Create an installable Python project using a simple base template and a tutorial
+
+[![Made with Python](https://img.shields.io/badge/Made_with-Python-blue?logo=python&logoColor=white)](https://python.org)
+[![GitHub tag](https://img.shields.io/github/tag/MichaelCurrin/python-package-quickstart)](https://github.com/MichaelCurrin/python-package-quickstart/tags/?include_prereleases&sort=semver)
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue)](#license)
 
 
-## [Online tutorial](https://michaelcurrin.github.io/python-package-quickstart/)
+<div align="center">
+  
+[![Use this template](https://img.shields.io/badge/Use_this_template-2ea44f?style=for-the-badge)](https://github.com/MichaelCurrin/python-package-quickstart/generate)
+[![View site GH Pages](https://img.shields.io/badge/GH_Pages-Online_tutorial-green?style=for-the-badge)](https://michaelcurrin.github.io/python-package-quickstart/)
+
+</div>
