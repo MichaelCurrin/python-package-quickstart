@@ -13,4 +13,19 @@
 
 </div>
 
+
+## Features
+
+- Template for new Python 3 projects
+- Installable using `pip`
+- Suitable for uploading to [PyPI](https://pypi.org/)
+
+
+## Related projects
+
 See also [MichaelCurrin/py-project-template](https://github.com/MichaelCurrin/py-project-template). That isn't installable using `pip`, but covers unit tests and a CI flow.
+
+
+## License
+
+Released under [MIT](/LICENSE).
