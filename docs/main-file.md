@@ -2,7 +2,6 @@
 
 If you have a structure like this:
 
-
 ```
 foo/
     __main__.py
@@ -10,8 +9,8 @@ foo/
 
 Then you can run:
 
-```
-python -m foo
+```sh
+$ python -m foo
 ```
 
 Even though `foo` is a directory, it can be run as a module, using the `__main__.py` entry point.
