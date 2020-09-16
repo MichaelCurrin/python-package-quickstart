@@ -12,3 +12,5 @@
 [![View site GH Pages](https://img.shields.io/badge/GH_Pages-Online_tutorial-green?style=for-the-badge)](https://michaelcurrin.github.io/python-package-quickstart/)
 
 </div>
+
+See also [MichaelCurrin/py-project-template](https://github.com/MichaelCurrin/py-project-template). That isn't installable using `pip`, but covers unit tests and a CI flow.
