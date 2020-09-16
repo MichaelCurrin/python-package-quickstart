@@ -6,7 +6,7 @@ from setuptools import setup, find_packages
 
 setup(
     name="sample-project-MichaelCurrin",
-    version="1.0.0", # New projects can start with 0.0.1
+    version="1.1.0", # New projects can start with 0.0.1
     author="Michael Currin",
     author_email="",
     description="A sample Python package project",
