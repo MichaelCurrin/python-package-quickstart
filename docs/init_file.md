@@ -1,4 +1,5 @@
-# Init file
+# Modulule initialization file
+> About the `__init__.py` file
 
 See the [Packages](https://docs.python.org/3/tutorial/modules.html#packages) section of official tutorial.
 
