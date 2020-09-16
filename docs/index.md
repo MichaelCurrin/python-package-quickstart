@@ -1,11 +1,11 @@
-# Online Documentation
+# Python Packages Tutorial
 
 Repo: [MichaelCurrin/python-package-quickstart](https://github.com/MichaelCurrin/python-package-quickstart)
 
 
 ## About
 
-This project is a quick reference, resources and demo for making a Python project installable using the `pip install PACKAGE` command. For full details, see the linked resources.
+This project is a quick reference, tutorial and demo for making a Python project installable using the `pip install PACKAGE` command. For full details, see the linked resources.
 
 - _Python 3.6+_
 - _Project settings configured for VS Code_
@@ -84,11 +84,11 @@ A main file is a script or an entrypoint to be run directly, but it might be con
 
 ### Init file
 
-See [init file](init_file.md) tutorial page.
+See [init file](init-file.md) tutorial page.
 
 ### Main file
 
-See [main file](main_file.md) tutorial page.
+See [main file](main-file.md) tutorial page.
 
 ### Intra-package references
 
