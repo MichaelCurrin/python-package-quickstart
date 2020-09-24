@@ -1,14 +1,15 @@
 # Setuptools
+> Intro to use `setuptools` library for packaging a project
 
 
 ## Setup file
-
 
 Sample from the tutorial:
 
 - `setup.py`
     ```python
     import setuptools
+
 
     with open("README.md", "r") as fh:
         long_description = fh.read()
@@ -47,6 +48,7 @@ Notes:
     packages=['foo']
     ```
 
+
 ## Install and upgrade system dependencies
 
 Make sure you have the latest version of `setuptools` installed at the user level for Python 3. i.e. Run this _outside_ a virtual environment and with the `--user` flag.
@@ -59,9 +61,6 @@ $ python3 -m pip install --user --upgrade setuptools wheel
 
 If you don't use the `--user` flag, you might get errors on install for Python managed by root and then have to use `sudo`, which should be avoided in general when installing Python packages.
 
-Those are stored in site packages.
+Those are stored in site packages. e.g. `.local/lib/python3.5/site-packages` on Linux.
 
-e.g. `.local/lib/python3.5/site-packages` on Linux.
-
-
-Follow [Installation](installation.md) page for installing the project package.
+Follow the [Installation](installation.md) page for installing the project package.
