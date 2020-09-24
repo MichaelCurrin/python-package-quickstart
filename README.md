@@ -16,9 +16,10 @@
 
 ## Features
 
-- Template for new Python 3 projects
-- Installable using `pip`
-- Suitable for uploading to [PyPI](https://pypi.org/)
+- Template for new Python 3 projects.
+- Installable using [pip](https://pypi.org/project/pip/).
+    > `pip` is the package installer for Python. You can use `pip` to install packages from the Python Package Index and other indexes.
+- Suitable for uploading uploading a package to the public listing on [PyPI](https://pypi.org/).
 
 
 ## Related projects
