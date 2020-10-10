@@ -1,6 +1,6 @@
 {
-    "terminal.integrated.cwd": "sampleproject", // TODO: Replace with own value.
-    "code-runner.cwd": "sampleproject",         // TODO: Replace with own value.
+    "terminal.integrated.cwd": "sampleproject",
+    "code-runner.cwd": "sampleproject",
 
     "python.pythonPath": "venv/bin/python",
 
