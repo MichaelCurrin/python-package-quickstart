@@ -41,11 +41,11 @@ This project is a quick reference, tutorial and demo for making a Python project
 
 From [pip docs](https://packaging.python.org/tutorials/installing-packages/#source-distributions-vs-wheels)
 
-> pip can install from either Source Distributions (sdist) or Wheels, but if both are present on PyPI, pip will prefer a compatible wheel.
+> `pip` can install from either Source Distributions (sdist) or Wheels, but if both are present on PyPI, pip will prefer a compatible wheel.
 >
 > Wheels are a pre-built distribution format that provides faster installation compared to Source Distributions (sdist), especially when a project contains compiled extensions.
 >
-> If pip does not find a wheel to install, it will locally build a wheel and cache it for future installs, instead of rebuilding the source distribution in the future.
+> If `pip` does not find a wheel to install, it will locally build a wheel and cache it for future installs, instead of rebuilding the source distribution in the future.
 
 
 ## Related projects
@@ -68,10 +68,17 @@ Note on publishing:
 
 ### Typical structure
 
+Here the repo or cloned folder is `sample-project` with a hyphen.
+
+Inside the repo is `sampleproject` which may not have a hyphen (otherwise you can't import it as package) and using an underscore is discouraged. See [PEP-8](https://www.python.org/dev/peps/pep-0008/#id40).
+
 ```
-packaging_tutorial/
-  example_pkg/
+sample-project
+  sampleproject/
+    foo/
+      __init__.py
     __init__.py
+    sampleproject.py
   tests/
   setup.py
   LICENSE
@@ -80,8 +87,6 @@ packaging_tutorial/
 
 Note that a directory and a script are both considered a "module" in Python, if it can be imported.
 
-A main file is a script or an entrypoint to be run directly, but it might be considered a module if you import it from elsewhere.
-
 ### Init file
 
 See [init file](init-file.md) tutorial page.
@@ -89,6 +94,8 @@ See [init file](init-file.md) tutorial page.
 ### Main file
 
 See [main file](main-file.md) tutorial page.
+
+A main file is a script or an entrypoint to be run directly, but it might be considered a module if you import it from elsewhere. A convention is that this main script matches package name as in the example. You can also make it `__main__.py`.
 
 ### Intra-package references
 
@@ -100,4 +107,4 @@ from .. import formats
 from ..filters import equalizer
 ```
 
-Does not work in the main module.
+This does not work in the main module.
