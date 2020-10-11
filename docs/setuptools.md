@@ -1,5 +1,5 @@
 # Setuptools
-> Intro to use `setuptools` library for packaging a project
+> Intro to using `setuptools` library for packaging a project
 
 
 ## Setup file
