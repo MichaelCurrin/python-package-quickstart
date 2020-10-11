@@ -24,7 +24,13 @@
 
 ## Related projects
 
-See also [MichaelCurrin/py-project-template](https://github.com/MichaelCurrin/py-project-template). That isn't installable using `pip` like this does, but it does cover unit tests and a GH Actions CI flow.
+See also [MichaelCurrin/py-project-template](https://github.com/MichaelCurrin/py-project-template). That isn't installable using `pip` like this one is
+
+But it does things this does not:
+
+- Makefile
+- unit tests
+- GH Actions CI flow
 
 
 ## License
