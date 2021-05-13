@@ -7,11 +7,13 @@
 [![Made with Python](https://img.shields.io/badge/Made_with-Python-blue?logo=python&logoColor=white)](https://python.org)
 
 
+## Use this project
+
 <div align="center">
   
 [![View site GH Pages](https://img.shields.io/badge/GH_Pages-Online_tutorial-blue?style=for-the-badge)](https://michaelcurrin.github.io/python-package-quickstart/)
 
-[![Use this template](https://img.shields.io/badge/Use_this_template-2ea44f?style=for-the-badge)](https://github.com/MichaelCurrin/python-package-quickstart/generate)
+[![Use this template](https://img.shields.io/badge/Generate-Use_this_template-2ea44f?style=for-the-badge)](https://github.com/MichaelCurrin/python-package-quickstart/generate)
 
 </div>
 
