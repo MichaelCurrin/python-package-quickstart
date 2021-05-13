@@ -1,4 +1,4 @@
-# Python Package Quickstart :snake: :package:
+# Python Package Quickstart 🐍 📦
 > A simple template for a Python project that can be installed with pip - includes docs and tutorial
 
 [![GitHub tag](https://img.shields.io/github/tag/MichaelCurrin/python-package-quickstart?include_prereleases=&sort=semver)](https://github.com/MichaelCurrin/python-package-quickstart/releases/)
