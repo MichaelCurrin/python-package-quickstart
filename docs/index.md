@@ -1,6 +1,8 @@
 # Python Packages Tutorial 🐍 📦
 >  A simple template for a Python project that can be installed with pip - includes docs and tutorial
   
+Go to source code:
+
 [![MichaelCurrin - python-package-quickstart](https://img.shields.io/static/v1?label=MichaelCurrin&message=python-package-quickstart&color=blue&logo=github)](https://github.com/MichaelCurrin/python-package-quickstart)
 
 
