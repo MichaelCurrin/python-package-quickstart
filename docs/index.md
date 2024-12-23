@@ -23,7 +23,7 @@ This project is a quick reference, tutorial and demo for making a Python project
     - [Packaging Python Projects](https://packaging.python.org/tutorials/packaging-projects/) tutorial. Most of this guide is based on that.
     - [Installing packages](https://packaging.python.org/tutorials/installing-packages/) tutorial.
     - Key projects
-        - [twine](https://packaging.python.org/key_projects/#twine) package - for upload to PyPI.
+        - [twine](https://packaging.python.org/key_projects/#twine) package - for uploading to PyPI.
         - [setuptools](https://packaging.python.org/key_projects/#setuptools) package.
         - [wheel](https://packaging.python.org/key_projects/#wheel) package.
 - Python 3 docs
@@ -42,6 +42,8 @@ This project is a quick reference, tutorial and demo for making a Python project
 
 ## Source Distributions vs Wheels
 
+Pre-built wheels are faster than using source distributions, but both are supported.
+
 From [pip docs](https://packaging.python.org/tutorials/installing-packages/#source-distributions-vs-wheels)
 
 > `pip` can install from either Source Distributions (sdist) or Wheels, but if both are present on PyPI, pip will prefer a compatible wheel.
@@ -49,6 +51,13 @@ From [pip docs](https://packaging.python.org/tutorials/installing-packages/#sour
 > Wheels are a pre-built distribution format that provides faster installation compared to Source Distributions (sdist), especially when a project contains compiled extensions.
 >
 > If `pip` does not find a wheel to install, it will locally build a wheel and cache it for future installs, instead of rebuilding the source distribution in the future.
+
+
+## Publish with Poetry
+
+As an alternative to using `setup.py` and `twine`, you can use Poetry to publish your package. This also avoids maintaining package versions in two places at once (`requirements.txt` and `setup.py`).
+
+See [Libraries](https://python-poetry.org/docs/libraries) on Poetry docs (though "Packages" is a better name) and see the [Publish command](https://python-poetry.org/docs/cli#publish).
 
 
 ## Related projects
@@ -67,7 +76,7 @@ From [pip docs](https://packaging.python.org/tutorials/installing-packages/#sour
 Note on publishing: 
 
 - This does not cover publishing to PyPI, as that is more restrictive especially if you're a beginner for packaging. For PyPI, you have to setup an account, meet the quality standards (maybe get approval?) and your package becomes searchable. 
-- A Github package is lower profile and has lower barriers to experiment with. Also, you can make your project private for your user or org, but still install it where you have access.
+- A GithHub package published to GitHub instead of PyPI is lower profile and has lower barriers to experiment with. Also, you can make your project private for your user or org, but still install it where you have access.
 
 ### Typical structure
 
@@ -88,7 +97,7 @@ sample-project
   README.md
 ```
 
-Note that a directory and a script are both considered a "module" in Python, if it can be imported.
+Note that a directory and a script are both considered a "module" in Python if it can be imported.
 
 ### Init file
 
@@ -109,5 +118,3 @@ from . import echo
 from .. import formats
 from ..filters import equalizer
 ```
-
-This does not work in the main module.
